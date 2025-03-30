@@ -2,15 +2,16 @@
     background-color: pink;
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
-.bold{
-    font-size: 24px;
-}
+
 #num2 {
     color: blue;
     font-size: 36px;
 }
 #num4 {
     background-color: lightgreen;
-    font-size: 24px;
     font-weight: bold;
+}
+
+.font-sizer {
+    font-size: 48px;
 }
