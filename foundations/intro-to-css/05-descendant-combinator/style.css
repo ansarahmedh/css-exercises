@@ -1,0 +1,7 @@
+.container .text {
+    background-color:YELLOW;
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}
+/* So, from my current understanding, descendant combinators is for selecting an element or class nested inside another element whereas, chaining selectors is for selecting the subclasses. We tried deleting the div with class container to add infront of class text in Ps and chaining worked.*/
