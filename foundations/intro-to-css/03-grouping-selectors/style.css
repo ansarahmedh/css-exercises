@@ -1,13 +1,14 @@
 body{
     background-color: aliceblue;
 }
-.button {
-    font-family: Helvetica, sans-serif;
+.one, .two {
+    font-family: Helvetica, 'Times New Roman', sans-serif;
     font-size: 96px;
     border: 2px solid;
     border-color: red black black red;
     border-radius: 5px;
     box-shadow: 4px 4px 10px silver;
+    transition: all 0.2s ease;
 }
 .one {
     background-color: black;
@@ -16,4 +17,9 @@ body{
 .two {
     background-color: yellow;
     color: black;
+}
+
+button:active {
+    box-shadow: 2px 2px 0px gold; /* Reduce shadow to make it look pressed */
+    transform: scale(0.99; /*That zoom effect*/
 }
